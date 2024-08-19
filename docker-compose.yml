@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    container_name: 100joursIntercessions
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    networks:
+      - web
+networks:
+  web:
+    external: true

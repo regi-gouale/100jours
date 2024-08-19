@@ -21,6 +21,8 @@ def get_bookings_data(debug: bool = True) -> list[dict]:
     all_bookings = []
     api_key = os.getenv('CAL_API_KEY')
     event_type_id = os.getenv('EVENT_TYPE_ID')
+    if not api_key or not event_type_id:
+        raise ValueError('API key or event type ID not set')
 
     if debug:
         with open('dump_bookings.json', encoding='utf-8') as f:
@@ -33,7 +35,7 @@ def get_bookings_data(debug: bool = True) -> list[dict]:
         all_bookings = response.json()['bookings']
 
     for booking in all_bookings:
-        if booking['eventTypeId'] == event_type_id and booking['status'] == 'ACCEPTED':
+        if booking['eventTypeId'] == int(event_type_id) and booking['status'] == 'ACCEPTED':
             filtered_bookings.append(booking)
 
     return filtered_bookings
@@ -109,8 +111,13 @@ def get_slots_from_cal_to_dataframe(debug: bool = True) -> pd.DataFrame:
         time_zone = 'Europe/Paris'
         event_type_id = os.getenv('EVENT_TYPE_ID')
         response = requests.get(
-            f'https://api.cal.com/v1/slots?apiKey={api_key}&startTime={
-                start_time}&endTime={end_time}&timeZone={time_zone}&eventTypeId={event_type_id}',
+            'https://api.cal.com/v1/slots?apiKey={api_key}&startTime={start_time}&endTime={end_time}&timeZone={time_zone}&eventTypeId={event_type_id}'.format(
+                api_key=api_key,
+                start_time=start_time,
+                end_time=end_time,
+                time_zone=time_zone,
+                event_type_id=event_type_id
+            ),
             timeout=10)
         data = response.json()
 

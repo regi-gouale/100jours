@@ -4,3 +4,8 @@
 *.pyo
 *.xlsx
 .DS_Store
+100-jours/
+bin/
+include/
+lib/
+lib64/

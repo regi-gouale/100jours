@@ -4,3 +4,5 @@ pandas==2.2.2
 python-dotenv==1.0.1
 python-multipart==0.0.9
 requests==2.31.0
+Flask==3.0.0
+Werkzeug==3.0.0
