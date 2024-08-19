@@ -62,6 +62,9 @@ def convert_to_dataframe(data: list[dict]) -> pd.DataFrame:
     """
     Convert the data to a pandas DataFrame
     """
+    if not data:
+        return pd.DataFrame()
+
     df = pd.DataFrame(data)
 
     df['Creneau'] = pd.to_datetime(df['Creneau'])
