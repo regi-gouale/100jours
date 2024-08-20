@@ -107,7 +107,7 @@ def get_slots_from_cal_to_dataframe(debug: bool = True) -> pd.DataFrame:
     else:
         api_key = os.getenv('CAL_API_KEY')
         start_time = '2024-08-19T00:00:00Z'
-        end_time = '2024-11-27T23:59:59Z'
+        end_time = '2024-12-04T23:59:59Z'
         time_zone = 'Europe/Paris'
         event_type_id = os.getenv('EVENT_TYPE_ID')
         response = requests.get(
