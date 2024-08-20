@@ -82,7 +82,7 @@ def create_csv_file(dataframe: pd.DataFrame) -> None:
     Create a CSV file from the DataFrame
     """
 
-    dataframe.to_csv('bookings.csv', index=False, sep=';')
+    dataframe.to_csv('~/apps/100jours/bookings.csv', index=False, sep=';')
 
 
 def merge_slots_and_bookings(slots: pd.DataFrame, bookings: pd.DataFrame) -> pd.DataFrame:

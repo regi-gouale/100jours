@@ -62,7 +62,7 @@ Creneau;Occupe;Fin;Fuseau Horaire;Nom Prenom;Email
 2024-08-26 21:00:00+02:00;True;2024-08-26 22:30:00+02:00;Europe/Paris;Lydie Kadima;lydiekadima@icloud.com
 2024-08-26 22:30:00+02:00;True;2024-08-27 00:00:00+02:00;Europe/Brussels;Elfried Nkodia;elfrieddelson@gmail.com
 2024-08-26 22:30:00+02:00;True;2024-08-27 00:00:00+02:00;Europe/Paris;Virginie David;virginie.davidclain@gmail.com
-2024-08-27 00:00:00+02:00;False;;;;
+2024-08-27 00:00:00+02:00;True;2024-08-27 01:30:00+02:00;Europe/Paris;Koffi EBOAHUN;ke.missions.icclyon@gmail.com
 2024-08-27 01:30:00+02:00;False;;;;
 2024-08-27 03:00:00+02:00;True;2024-08-27 04:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com
 2024-08-27 03:00:00+02:00;True;2024-08-27 04:30:00+02:00;Europe/Paris;CLIFF BETTERSON;betterson@hotmail.fr
@@ -102,7 +102,7 @@ Creneau;Occupe;Fin;Fuseau Horaire;Nom Prenom;Email
 2024-08-28 06:00:00+02:00;True;2024-08-28 07:30:00+02:00;Europe/Paris;Ruth Majorlaine KOUAME;rkouamemajo@yahoo.com
 2024-08-28 07:30:00+02:00;True;2024-08-28 09:00:00+02:00;Europe/Paris;Noëlla Chi;chinoella21@gmail.com
 2024-08-28 09:00:00+02:00;False;;;;
-2024-08-28 10:30:00+02:00;False;;;;
+2024-08-28 10:30:00+02:00;True;2024-08-28 12:00:00+02:00;Europe/Brussels;Sweet-heart NLEND NLEND;Sweetheartnlendnlend@gmail.com
 2024-08-28 12:00:00+02:00;False;;;;
 2024-08-28 13:30:00+02:00;True;2024-08-28 15:00:00+02:00;Europe/Paris;Engracia bernabe Laura;laurabernabe883@gmail.com
 2024-08-28 15:00:00+02:00;True;2024-08-28 16:30:00+02:00;Europe/Paris;Honorine Kunyehia;kunyehiahonorine73@gmail.com
@@ -168,7 +168,7 @@ Creneau;Occupe;Fin;Fuseau Horaire;Nom Prenom;Email
 2024-08-31 04:30:00+02:00;True;2024-08-31 06:00:00+02:00;Europe/Paris;Félicité Tabangoli;tabangolilea@gmail.com
 2024-08-31 06:00:00+02:00;True;2024-08-31 07:30:00+02:00;Europe/Paris;Julien SAFOUESSE;jujusafouesse@gmail.com
 2024-08-31 06:00:00+02:00;True;2024-08-31 07:30:00+02:00;Europe/Paris;Charlotte MENDO M EYI;eyicharlotte@yahoo.fr
-2024-08-31 07:30:00+02:00;False;;;;
+2024-08-31 07:30:00+02:00;True;2024-08-31 09:00:00+02:00;Europe/Brussels;sweet-heart NLEND NLEND;sweetheartnlendnlend@gmail.com
 2024-08-31 09:00:00+02:00;False;;;;
 2024-08-31 10:30:00+02:00;True;2024-08-31 12:00:00+02:00;Europe/Paris;John Samuel;johnsamuel69@hotmail.fr
 2024-08-31 10:30:00+02:00;True;2024-08-31 12:00:00+02:00;Europe/Paris;Gildas ZODJI;gildasalberic@gmail.com
@@ -246,7 +246,7 @@ Creneau;Occupe;Fin;Fuseau Horaire;Nom Prenom;Email
 2024-09-04 03:00:00+02:00;True;2024-09-04 04:30:00+02:00;Europe/Paris;Gilberte Quenum;geliacin73@gmail.com
 2024-09-04 03:00:00+02:00;True;2024-09-04 04:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com
 2024-09-04 04:30:00+02:00;False;;;;
-2024-09-04 06:00:00+02:00;False;;;;
+2024-09-04 06:00:00+02:00;True;2024-09-04 07:30:00+02:00;Europe/Brussels;Sweet-heart NLEND NLEND;Sweetheartnlendnlend@gmail.com
 2024-09-04 07:30:00+02:00;False;;;;
 2024-09-04 09:00:00+02:00;False;;;;
 2024-09-04 10:30:00+02:00;False;;;;
