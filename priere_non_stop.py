@@ -77,12 +77,13 @@ def convert_to_dataframe(data: list[dict]) -> pd.DataFrame:
     return df
 
 
-def create_csv_file(dataframe: pd.DataFrame) -> None:
+def create_csv_json_files(dataframe: pd.DataFrame) -> None:
     """
     Create a CSV file from the DataFrame
     """
 
     dataframe.to_csv('~/apps/100jours/bookings.csv', index=False, sep=';')
+    dataframe.to_json('~/apps/100jours/bookings.json', orient='records')
 
 
 def merge_slots_and_bookings(slots: pd.DataFrame, bookings: pd.DataFrame) -> pd.DataFrame:
@@ -153,15 +154,15 @@ def main():
     Main function
     """
     bookings = get_bookings_data(debug=False)
-    print(f'Number of bookings: {len(bookings)}')
+    print(f'Number of booked slots: {len(bookings)}')
     formatted_bookings = format_data_from_api(bookings)
-    print(f'Number of formatted bookings: {len(formatted_bookings)}')
+    print(f'Number of persons: {len(formatted_bookings)}')
     dt_bookings = convert_to_dataframe(formatted_bookings)
     slots = get_slots_from_cal_to_dataframe(debug=False)
     print(f'Number of slots: {len(slots)}')
     merged = merge_slots_and_bookings(slots, dt_bookings)
 
-    create_csv_file(merged)
+    create_csv_json_files(merged)
 
 
 if __name__ == '__main__':
