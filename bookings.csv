@@ -222,7 +222,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-08-30 15:00:00+02:00;2024-08-30 16:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-08-30 15:00:00+02:00;2024-08-30 16:30:00+02:00;Europe/Paris;Grace Mbuyi Kelekele;gracekelekeke8@gmai.com;True
 2024-08-30 16:30:00+02:00;2024-08-30 18:00:00+02:00;Europe/Paris;Henriques Samuel Timba;henriques.livres@gmail.com;True
-2024-08-30 18:00:00+02:00;;;;;False
+2024-08-30 18:00:00+02:00;2024-08-30 19:30:00+02:00;Europe/Paris;Elsa MBOUNDOU;mboundouelsa@gmail.com;True
 2024-08-30 19:30:00+02:00;2024-08-30 21:00:00+02:00;Europe/Paris;Arnal KADI LUPATA;kadilupata@yahoo.fr;True
 2024-08-30 19:30:00+02:00;2024-08-30 21:00:00+02:00;Europe/Paris;Jessica Nabeza;jessicabarbaranabeza@gmail.com;True
 2024-08-30 19:30:00+02:00;2024-08-30 21:00:00+02:00;Europe/Paris;Alena FERNANDEZ;alena26@live.fr;True
@@ -263,6 +263,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-08-31 18:00:00+02:00;2024-08-31 19:30:00+02:00;Europe/Paris;Maïté Espel;maite.espel@gmail.com;True
 2024-08-31 18:00:00+02:00;2024-08-31 19:30:00+02:00;Europe/Paris;Dolores Samafou;mauricettesamafou@gmail.com;True
 2024-08-31 18:00:00+02:00;2024-08-31 19:30:00+02:00;Europe/Paris;Léontine Gnan;leontine.gnan@gmail.com;True
+2024-08-31 19:30:00+02:00;2024-08-31 21:00:00+02:00;Europe/Paris;Danielle OTSOBOGHO;daotsobogho@gmail.com;True
 2024-08-31 19:30:00+02:00;2024-08-31 21:00:00+02:00;Europe/Paris;Ariane Padonou;padlayo@gmail.com;True
 2024-08-31 19:30:00+02:00;2024-08-31 21:00:00+02:00;Europe/Paris;Farenn MATSOMO;cfarenn@gmail.com;True
 2024-08-31 21:00:00+02:00;2024-08-31 22:30:00+02:00;Europe/Paris;Michèle-Jeannine AYISSI METE;micheleayissi55@gmail.com;True
@@ -365,6 +366,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-03 07:30:00+02:00;2024-09-03 09:00:00+02:00;Europe/Paris;Jehus NGAISSONA;faveurking5@gmail.com;True
 2024-09-03 07:30:00+02:00;2024-09-03 09:00:00+02:00;Europe/Paris;Hortense Mazamay;hautdevieh18@gmail.com;True
 2024-09-03 07:30:00+02:00;2024-09-03 09:00:00+02:00;Europe/Paris;Annie Chauville;anch9091@gmail.com;True
+2024-09-03 09:00:00+02:00;2024-09-03 10:30:00+02:00;Europe/Paris;Marcel AGBOSSOU;akmarcel91@gmail.com;True
 2024-09-03 09:00:00+02:00;2024-09-03 10:30:00+02:00;Europe/Paris;Charlotte Mputu;mputucharlotte@yahoo.fr;True
 2024-09-03 09:00:00+02:00;2024-09-03 10:30:00+02:00;Europe/Paris;Musette MASIKA;masikamusette@gmail.com;True
 2024-09-03 10:30:00+02:00;2024-09-03 12:00:00+02:00;Europe/Paris;Firmin FIABOE;firfiaboe2@gmail.com;True
@@ -376,6 +378,8 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-03 13:30:00+02:00;2024-09-03 15:00:00+02:00;Europe/Paris;Eric Akareco;ericakareco@gmail.com;True
 2024-09-03 13:30:00+02:00;2024-09-03 15:00:00+02:00;Europe/Paris;Engracia bernabe Laura;laurabernabe883@gmail.com;True
 2024-09-03 15:00:00+02:00;2024-09-03 16:30:00+02:00;Europe/Paris;Rionel NECDEM;patricknec@gmail.com;True
+2024-09-03 16:30:00+02:00;2024-09-03 18:00:00+02:00;Europe/Paris;rebecca babo;baborebeccaedwige60@gmail.com;True
+2024-09-03 16:30:00+02:00;2024-09-03 18:00:00+02:00;Europe/Paris;James KOLLA;Kollaj18@gmail.com;True
 2024-09-03 16:30:00+02:00;2024-09-03 18:00:00+02:00;Europe/Paris;Henriques Samuel Timba;henriques.livres@gmail.com;True
 2024-09-03 18:00:00+02:00;2024-09-03 19:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-09-03 18:00:00+02:00;2024-09-03 19:30:00+02:00;Europe/Paris;Roselyne Mouanga;tabita74@yahoo.it;True
@@ -414,6 +418,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-04 13:30:00+02:00;2024-09-04 15:00:00+02:00;Europe/Paris;Bernabe Timba Leandra;livreshenriques@gmail.com;True
 2024-09-04 15:00:00+02:00;2024-09-04 16:30:00+02:00;Europe/Paris;Saint Thomas Mbaiamnodji;mbai.saint@gmail.com;True
 2024-09-04 15:00:00+02:00;2024-09-04 16:30:00+02:00;Europe/Paris;Pélagie GARMY;epelagie_17@yahoo.fr;True
+2024-09-04 16:30:00+02:00;2024-09-04 18:00:00+02:00;Europe/Paris;rebecca Babo;baborebeccaedwige60@gmail.com;True
 2024-09-04 16:30:00+02:00;2024-09-04 18:00:00+02:00;Europe/Brussels;Jacobb Nkanza;jnkanza1@gmail.com;True
 2024-09-04 16:30:00+02:00;2024-09-04 18:00:00+02:00;Europe/Paris;Henriques Samuel Timba;henriques.livres@gmail.com;True
 2024-09-04 18:00:00+02:00;2024-09-04 19:30:00+02:00;Europe/Paris;Pressylia ZOLA;pressyliazola@gmail.com;True
@@ -450,6 +455,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-05 12:00:00+02:00;2024-09-05 13:30:00+02:00;Europe/Paris;Régi Goualé;regi.gouale.icc@gmail.com;True
 2024-09-05 13:30:00+02:00;2024-09-05 15:00:00+02:00;Europe/Paris;Engracia bernabe Laura;laurabernabe883@gmail.com;True
 2024-09-05 15:00:00+02:00;2024-09-05 16:30:00+02:00;Europe/Paris;Saint Thomas Mbaiamnodji;mbai.saint@gmail.com;True
+2024-09-05 15:00:00+02:00;2024-09-05 16:30:00+02:00;Europe/Paris;rebecca babo;baborebeccaedwige60@gmail.com;True
 2024-09-05 15:00:00+02:00;2024-09-05 16:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-09-05 16:30:00+02:00;2024-09-05 18:00:00+02:00;Europe/Paris;Henriques Samuel Timba;henriques.livres@gmail.com;True
 2024-09-05 18:00:00+02:00;2024-09-05 19:30:00+02:00;Europe/Paris;Musette MASIKA;masikamusette@gmail.com;True
@@ -474,6 +480,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-06 04:30:00+02:00;2024-09-06 06:00:00+02:00;Europe/Paris;Grace Mbuyi Kelekele;gracekelekeke8@gmail.com;True
 2024-09-06 04:30:00+02:00;2024-09-06 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
 2024-09-06 04:30:00+02:00;2024-09-06 06:00:00+02:00;Europe/Paris;Luisa DA CONCEICAO PINTO;landisawesley@gmail.com;True
+2024-09-06 06:00:00+02:00;2024-09-06 07:30:00+02:00;Europe/Paris;Carine Sakila;sakilacarine@yahoo.fr;True
 2024-09-06 06:00:00+02:00;2024-09-06 07:30:00+02:00;Europe/Paris;Herbert Ndilandogo;ndilandogo@yahoo.fr;True
 2024-09-06 06:00:00+02:00;2024-09-06 07:30:00+02:00;Europe/Paris;Geneviève NGA;genevieve.nga@gmail.com;True
 2024-09-06 07:30:00+02:00;2024-09-06 09:00:00+02:00;Europe/Paris;Jehus NGAISSONA;faveurking5@gmail.com;True
@@ -481,9 +488,9 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-06 10:30:00+02:00;2024-09-06 12:00:00+02:00;Europe/Paris;Emilie Adzimase;emilieadzimase22@gmail.com;True
 2024-09-06 12:00:00+02:00;2024-09-06 13:30:00+02:00;Europe/Paris;Leslie Goualé;leslie.ntsame@hotmail.com;True
 2024-09-06 13:30:00+02:00;2024-09-06 15:00:00+02:00;Europe/Paris;Maïté Espel;maite.espel@gmail.com;True
-2024-09-06 13:30:00+02:00;2024-09-06 15:00:00+02:00;Europe/Paris;Leslie CHIEGANG;chiegangleslie@gmail.com;True
 2024-09-06 13:30:00+02:00;2024-09-06 15:00:00+02:00;Europe/Paris;Engracia bernabe Laura;laurabernabe883@gmail.com;True
 2024-09-06 15:00:00+02:00;2024-09-06 16:30:00+02:00;Europe/Paris;Saint Thomas Mbaiamnodji;mbai.saint@gmail.com;True
+2024-09-06 15:00:00+02:00;2024-09-06 16:30:00+02:00;Europe/Paris;rebecca BABO;baborebeccaedwige60@gmail.com;True
 2024-09-06 15:00:00+02:00;2024-09-06 16:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-09-06 16:30:00+02:00;2024-09-06 18:00:00+02:00;Europe/Paris;Henriques Samuel Timba;henriques.livres@gmail.com;True
 2024-09-06 18:00:00+02:00;2024-09-06 19:30:00+02:00;Europe/Paris;Musette MASIKA;masikamusette@gmail.com;True
@@ -503,7 +510,6 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-07 01:30:00+02:00;2024-09-07 03:00:00+02:00;Europe/Paris;Amandine Massamba;massambaamandine9@gmail.com;True
 2024-09-07 01:30:00+02:00;2024-09-07 03:00:00+02:00;Europe/Paris;Yanka MAHAN;mahan.yanka@gmail.com;True
 2024-09-07 03:00:00+02:00;2024-09-07 04:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
-2024-09-07 03:00:00+02:00;2024-09-07 04:30:00+02:00;Europe/Paris;Joëlle BADJAH;jo_2812@hotmail.fr;True
 2024-09-07 03:00:00+02:00;2024-09-07 04:30:00+02:00;Europe/Paris;Rebecca Andeme;rebeccapro22@gmail.com;True
 2024-09-07 04:30:00+02:00;2024-09-07 06:00:00+02:00;Europe/Paris;Karima BAKOURI;k.bakouri@outlook.fr;True
 2024-09-07 04:30:00+02:00;2024-09-07 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
@@ -514,11 +520,12 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-07 07:30:00+02:00;2024-09-07 09:00:00+02:00;Europe/Paris;Grace Mbuyi Kelekele;gracekelekeke8@gmail.com;True
 2024-09-07 07:30:00+02:00;2024-09-07 09:00:00+02:00;Europe/Paris;Jehus NGAISSONA;faveurking5@gmail.com;True
 2024-09-07 07:30:00+02:00;2024-09-07 09:00:00+02:00;Europe/Paris;Roselyne Mouanga;tabita74@yahoo.it;True
+2024-09-07 09:00:00+02:00;2024-09-07 10:30:00+02:00;Europe/Paris;Kemi;kemiolayode@gmail.com;True
 2024-09-07 09:00:00+02:00;2024-09-07 10:30:00+02:00;Europe/Paris;Jeannette VIDJRO;jeannettedalmeida28@gmail.com;True
 2024-09-07 10:30:00+02:00;2024-09-07 12:00:00+02:00;Europe/Paris;John Samuel;johnsamuel69@hotmail.fr;True
 2024-09-07 10:30:00+02:00;2024-09-07 12:00:00+02:00;Europe/Paris;Ephrem Boli;ephremboli23@gmail.com;True
 2024-09-07 10:30:00+02:00;2024-09-07 12:00:00+02:00;Europe/Paris;Musette MASIKA;masikamusette@gmail.com;True
-2024-09-07 12:00:00+02:00;;;;;False
+2024-09-07 12:00:00+02:00;2024-09-07 13:30:00+02:00;Europe/Paris;Joëlle BADJAH;jo_2812@hotmail.fr;True
 2024-09-07 13:30:00+02:00;2024-09-07 15:00:00+02:00;Europe/Paris;Engracia bernabe Laura;laurabernabe883@gmail.com;True
 2024-09-07 13:30:00+02:00;2024-09-07 15:00:00+02:00;Europe/Paris;Bernabe Timba Leandra;livreshenriques@gmail.com;True
 2024-09-07 15:00:00+02:00;;;;;False
@@ -526,6 +533,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-07 18:00:00+02:00;2024-09-07 19:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-09-07 19:30:00+02:00;;;;;False
 2024-09-07 21:00:00+02:00;2024-09-07 22:30:00+02:00;Europe/Paris;Jeanne Nantcha;jeannenantcha@gmail.com;True
+2024-09-07 21:00:00+02:00;2024-09-07 22:30:00+02:00;Europe/Paris;Ines Moro;moroines1@gmail.com;True
 2024-09-07 22:30:00+02:00;2024-09-08 00:00:00+02:00;Europe/Paris;Nicole ANTONIN;antonin.nicole972@gmail.com;True
 2024-09-07 22:30:00+02:00;2024-09-08 00:00:00+02:00;Europe/Paris;Innocent N'DRI;apekou225@gmail.com;True
 2024-09-07 22:30:00+02:00;2024-09-08 00:00:00+02:00;Europe/Paris;Thaliana Vernet;vernetthaliana11@gmail.com;True
@@ -537,7 +545,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-08 03:00:00+02:00;2024-09-08 04:30:00+02:00;Europe/Paris;Nicole ANTONIN;antonin.nicole972@gmail.com;True
 2024-09-08 03:00:00+02:00;2024-09-08 04:30:00+02:00;Europe/Athens;Isadora Maboumi;maboumi.france@yahoo.com;True
 2024-09-08 04:30:00+02:00;2024-09-08 06:00:00+02:00;Europe/Paris;Musette MASIKA;masikamusette@gmail.com;True
-2024-09-08 06:00:00+02:00;;;;;False
+2024-09-08 06:00:00+02:00;2024-09-08 07:30:00+02:00;Europe/Paris;Maïté Espel;maite.espel@gmail.com;True
 2024-09-08 07:30:00+02:00;;;;;False
 2024-09-08 09:00:00+02:00;;;;;False
 2024-09-08 10:30:00+02:00;;;;;False
@@ -550,6 +558,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-08 19:30:00+02:00;2024-09-08 21:00:00+02:00;Europe/Paris;Joëlle BADJAH;jo_2812@hotmail.fr;True
 2024-09-08 19:30:00+02:00;2024-09-08 21:00:00+02:00;Europe/Paris;Michèle- Jeannine AYISSI METE;micheleayissi55@gmail.com;True
 2024-09-08 21:00:00+02:00;2024-09-08 22:30:00+02:00;Europe/Paris;Cynthia KIANDINGA L.;cynthialutonadio@gmail.com;True
+2024-09-08 22:30:00+02:00;2024-09-09 00:00:00+02:00;Europe/Paris;Tracy brenda Manomba Bounamikoumou;manombabrenda@gmail.com;True
 2024-09-08 22:30:00+02:00;2024-09-09 00:00:00+02:00;Europe/Paris;Jaelle Banewa;jbanewamv@gmail.com;True
 2024-09-09 00:00:00+02:00;2024-09-09 01:30:00+02:00;Europe/Paris;Nicole ANTONIN;antonin.nicole972@gmail.com;True
 2024-09-09 00:00:00+02:00;2024-09-09 01:30:00+02:00;Europe/Paris;Naïka BADJINA DOUKAGA;doukaganaikafrancia@gmail.com;True
@@ -618,6 +627,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-11 03:00:00+02:00;2024-09-11 04:30:00+02:00;Europe/Paris;Gilberte Quenum;geliacin73@gmail.com;True
 2024-09-11 04:30:00+02:00;2024-09-11 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
 2024-09-11 04:30:00+02:00;2024-09-11 06:00:00+02:00;Europe/Paris;Aloïsia Kingbell;misskingbell@hotmail.com;True
+2024-09-11 06:00:00+02:00;2024-09-11 07:30:00+02:00;Europe/Paris;Roseline OTANDO;roselinekenda@hotmail.com;True
 2024-09-11 06:00:00+02:00;2024-09-11 07:30:00+02:00;Europe/Paris;Naomie MAKA;naomiemaka1410@gmail.com;True
 2024-09-11 06:00:00+02:00;2024-09-11 07:30:00+02:00;Europe/Brussels;Sweet-heart NLEND NLEND;Sweetheartnlendnlend@gmail.com;True
 2024-09-11 07:30:00+02:00;2024-09-11 09:00:00+02:00;Europe/Paris;Zita MANUEL;guesamalanda@gmail.com;True
@@ -628,7 +638,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-11 13:30:00+02:00;;;;;False
 2024-09-11 15:00:00+02:00;2024-09-11 16:30:00+02:00;Europe/Paris;Saint Thomas Mbaiamnodji;mbai.saint@gmail.com;True
 2024-09-11 16:30:00+02:00;;;;;False
-2024-09-11 18:00:00+02:00;;;;;False
+2024-09-11 18:00:00+02:00;2024-09-11 19:30:00+02:00;Europe/Paris;Naomie Maka;naomiemaka1410@gmail.com;True
 2024-09-11 19:30:00+02:00;2024-09-11 21:00:00+02:00;Europe/Paris;FOUTOU BIVIGA Christy Emerode;bivigachristy@gmail.com;True
 2024-09-11 19:30:00+02:00;2024-09-11 21:00:00+02:00;Europe/Paris;Arnal KADI LUPATA;kadilupata@yahoo.fr;True
 2024-09-11 21:00:00+02:00;2024-09-11 22:30:00+02:00;Europe/Paris;Karima BAKOURI;k.bakouri@outlook.fr;True
@@ -659,6 +669,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-12 16:30:00+02:00;;;;;False
 2024-09-12 18:00:00+02:00;;;;;False
 2024-09-12 19:30:00+02:00;2024-09-12 21:00:00+02:00;Europe/Paris;Doris Mayela;bagowidoris@yahoo.fr;True
+2024-09-12 21:00:00+02:00;2024-09-12 22:30:00+02:00;Europe/Paris;Naomie Maka;naomiemaka1410@gmail.com;True
 2024-09-12 21:00:00+02:00;2024-09-12 22:30:00+02:00;Europe/Paris;Jeanne Nantcha;jeannenantcha@gmail.com;True
 2024-09-12 22:30:00+02:00;2024-09-13 00:00:00+02:00;Europe/Paris;Cynthia Akpro;cynthia.akpro@gmail.com;True
 2024-09-12 22:30:00+02:00;2024-09-13 00:00:00+02:00;Europe/Paris;Adjoua N'DRI;adjoua.adjoumani@gmail.com;True
@@ -675,6 +686,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-13 04:30:00+02:00;2024-09-13 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
 2024-09-13 04:30:00+02:00;2024-09-13 06:00:00+02:00;Europe/Paris;Marlyse JACQUOT;marlyse_fr2000@yahoo.fr;True
 2024-09-13 04:30:00+02:00;2024-09-13 06:00:00+02:00;Europe/Paris;Marie Ifufa;fgcmarie@gmail.com;True
+2024-09-13 06:00:00+02:00;2024-09-13 07:30:00+02:00;Europe/Paris;Carine Sakila;sakilacarine@yahoo.fr;True
 2024-09-13 06:00:00+02:00;2024-09-13 07:30:00+02:00;Europe/Paris;Nicole ANTONIN;antonin.nicole972@gmail.com;True
 2024-09-13 07:30:00+02:00;2024-09-13 09:00:00+02:00;Europe/Paris;Zita MANUEL;guesamalanda@gmail.com;True
 2024-09-13 09:00:00+02:00;2024-09-13 10:30:00+02:00;Europe/Paris;Emilie Adzimase;emilieadzimase22@gmail.com;True
@@ -693,12 +705,14 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-13 22:30:00+02:00;2024-09-14 00:00:00+02:00;Europe/Paris;Christian Ebengue;chris_ebengue@yahoo.fr;True
 2024-09-13 22:30:00+02:00;2024-09-14 00:00:00+02:00;Europe/Paris;Thaliana Vernet;vernetthaliana11@gmail.com;True
 2024-09-14 00:00:00+02:00;2024-09-14 01:30:00+02:00;Europe/Paris;Amandine Massamba;massambaamandine9@gmail.com;True
+2024-09-14 00:00:00+02:00;2024-09-14 01:30:00+02:00;Europe/Athens;Isadora Maboumi;maboumi.isadora@gmail.com;True
 2024-09-14 00:00:00+02:00;2024-09-14 01:30:00+02:00;Europe/Paris;Nicole ANTONIN;antonin.nicole972@gmail.com;True
 2024-09-14 01:30:00+02:00;2024-09-14 03:00:00+02:00;Europe/Paris;Yanka MAHAN;mahan.yanka@gmail.com;True
 2024-09-14 01:30:00+02:00;2024-09-14 03:00:00+02:00;Europe/Paris;Ephrem SAMAKE;souhourousam@gmail.com;True
 2024-09-14 01:30:00+02:00;2024-09-14 03:00:00+02:00;Europe/Paris;Elie Nawej;eliemueb@gmail.com;True
 2024-09-14 03:00:00+02:00;2024-09-14 04:30:00+02:00;Europe/Paris;Amandine Massamba;massambaamandine9@gmail.com;True
 2024-09-14 03:00:00+02:00;2024-09-14 04:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
+2024-09-14 03:00:00+02:00;2024-09-14 04:30:00+02:00;Europe/Paris;Maurice;walmaurice@gmail.com;True
 2024-09-14 04:30:00+02:00;2024-09-14 06:00:00+02:00;Europe/Paris;Précieuse Ngyama;preyeshua@gmail.com;True
 2024-09-14 04:30:00+02:00;2024-09-14 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
 2024-09-14 04:30:00+02:00;2024-09-14 06:00:00+02:00;Europe/Paris;Esther YAOKOKORE;estyao@gmail.com;True
@@ -856,6 +870,7 @@ Creneau;Fin;Fuseau Horaire;Nom Prenom;Email;Occupe
 2024-09-20 03:00:00+02:00;2024-09-20 04:30:00+02:00;Europe/Paris;Alexandre BANOND;alexia.banond@gmail.com;True
 2024-09-20 03:00:00+02:00;2024-09-20 04:30:00+02:00;Europe/Paris;Raïssa KASA VUBU;raissa.nkv@gmail.com;True
 2024-09-20 03:00:00+02:00;2024-09-20 04:30:00+02:00;Europe/Paris;Marlyse JACQUOT;marlyse_fr2000@yahoo.fr;True
+2024-09-20 04:30:00+02:00;2024-09-20 06:00:00+02:00;Europe/Paris;Aloïsia Kingbell;misskingbell@hotmail.fr;True
 2024-09-20 04:30:00+02:00;2024-09-20 06:00:00+02:00;Europe/Paris;Myriana BEGARIN;myrianaicclyon69@gmail.com;True
 2024-09-20 06:00:00+02:00;2024-09-20 07:30:00+02:00;Europe/Paris;Véronique-didine Djopwouo;kbukuruv@yahoo.fr;True
 2024-09-20 07:30:00+02:00;2024-09-20 09:00:00+02:00;Europe/Paris;Zita MANUEL;guesamalanda@gmail.com;True

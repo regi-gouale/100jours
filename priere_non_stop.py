@@ -34,19 +34,11 @@ def get_bookings_data(debug: bool = True) -> list[dict]:
         )
         all_bookings = response.json()["bookings"]
 
-    # print(f"Number of bookings: {len(all_bookings)}")
-
     for booking in all_bookings:
-        # if (
-        #     booking["eventTypeId"] == int(event_type_id)
-        #     and booking["status"] != "CANCELLED"
-        # ):
-        #     filtered_bookings.append(booking)
-        if (
-            booking["status"] != "CANCELLED"
-        ):
+
+        if booking["status"] != "CANCELLED":
             filtered_bookings.append(booking)
-    # print(f"Number of filtered bookings: {len(filtered_bookings)}")
+
     return filtered_bookings
 
 
@@ -82,18 +74,21 @@ def convert_to_dataframe(data: list[dict]) -> pd.DataFrame:
     df["Fin"] = pd.to_datetime(df["Fin"])
     df["Creneau"] = df["Creneau"].dt.tz_convert("Europe/Paris")
     df["Fin"] = df["Fin"].dt.tz_convert("Europe/Paris")
-    df['Occupe'] = True
-    # print(df.head())
+    df["Occupe"] = True
+
     return df
 
 
-def create_csv_json_files(dataframe: pd.DataFrame) -> None:
+def create_csv_json_files(dataframe: pd.DataFrame, debug: bool = True) -> None:
     """
     Create a CSV file from the DataFrame
     """
-
-    dataframe.to_csv("~/apps/100jours/bookings.csv", index=False, sep=";")
-    dataframe.to_json("~/apps/100jours/bookings.json", orient="records")
+    if not debug:
+        dataframe.to_csv("~/apps/100jours/bookings.csv", index=False, sep=";")
+        dataframe.to_json("~/apps/100jours/bookings.json", orient="records")
+    else:
+        dataframe.to_csv("~/apps/100jours/debug_bookings.csv", index=False, sep=";")
+        dataframe.to_json("~/apps/100jours/debug_bookings.json", orient="records")
 
 
 def merge_slots_and_bookings(
@@ -104,9 +99,15 @@ def merge_slots_and_bookings(
     """
 
     dataframe = pd.merge(slots, bookings, on="Creneau", how="left")
-    dataframe["Occupe"] = dataframe["Occupe_x"].combine_first(dataframe["Occupe_y"])
+    dataframe["Occupe"] = dataframe.apply(
+        lambda x: (
+            x["Occupe_x"] or x["Occupe_y"]
+            if pd.notna(x["Occupe_x"]) and pd.notna(x["Occupe_y"])
+            else x["Occupe_x"] if pd.notna(x["Occupe_x"]) else x["Occupe_y"]
+        ),
+        axis=1,
+    )
     dataframe.drop(columns=["Occupe_x", "Occupe_y"], inplace=True)
-    # print(dataframe)
     return dataframe
 
 
@@ -123,6 +124,8 @@ def get_slots_from_cal_to_dataframe(debug: bool = True) -> pd.DataFrame:
         inclusive="left",
     )
     date_range = date_range.to_frame(index=False, name="Creneau")
+    date_range["Occupe"] = False
+
     if debug:
         with open("dump_available_slots.json", encoding="utf-8") as f:
             data = json.load(f)
@@ -166,8 +169,11 @@ def get_slots_from_cal_to_dataframe(debug: bool = True) -> pd.DataFrame:
     )
 
     formatted_slots = pd.merge(date_range, formatted_slots, on="Creneau", how="left")
-    formatted_slots["Occupe"] = formatted_slots["Occupe"].infer_objects()
-    # print(formatted_slots.head())
+    formatted_slots["Occupe"] = formatted_slots.apply(
+        lambda x: x["Occupe_x"] if pd.notna(x["Occupe_x"]) else x["Occupe_y"], axis=1
+    )
+    formatted_slots.drop(columns=["Occupe_x", "Occupe_y"], inplace=True)
+
     return formatted_slots
 
 
@@ -184,7 +190,7 @@ def main():
     print(f"Number of slots: {len(slots)}")
     merged = merge_slots_and_bookings(slots, dt_bookings)
 
-    create_csv_json_files(merged)
+    create_csv_json_files(merged, debug=False)
 
 
 if __name__ == "__main__":

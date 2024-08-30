@@ -10,3 +10,5 @@ include/
 lib/
 lib64/
 *.log
+debug_bookings.csv
+debug_bookings.json
